@@ -1,0 +1,885 @@
+Data,Fusion,Classifier,Seed,Class,F1
+OlmoEarth,Single,LinearProbe,18,Wheat,64.8980883084015
+OlmoEarth,Single,LinearProbe,18,Barley,52.26450835198898
+OlmoEarth,Single,LinearProbe,18,Maize,83.85345997286295
+OlmoEarth,Single,LinearProbe,18,Rice,85.33333333333334
+OlmoEarth,Single,LinearProbe,18,Other cereals,43.634743875278396
+OlmoEarth,Single,LinearProbe,18,Fresh vegetables,26.322580645161292
+OlmoEarth,Single,LinearProbe,18,Dry pulses,27.89473684210526
+OlmoEarth,Single,LinearProbe,18,Potatoes,53.074916138650764
+OlmoEarth,Single,LinearProbe,18,Sugar Beet,73.56514453288648
+OlmoEarth,Single,LinearProbe,18,Sunflower,62.96860713197196
+OlmoEarth,Single,LinearProbe,18,Soybeans,44.13919413919414
+OlmoEarth,Single,LinearProbe,18,Rapeseed,67.20207253886011
+OlmoEarth,Single,LinearProbe,18,"Flax, cotton and hemp",48.87218045112782
+OlmoEarth,Single,LinearProbe,18,Grapes,50.129945134276646
+OlmoEarth,Single,LinearProbe,18,Olives,67.7597868415659
+OlmoEarth,Single,LinearProbe,18,Fruits,53.04659498207885
+OlmoEarth,Single,LinearProbe,18,Nuts,28.584392014519054
+OlmoEarth,Single,RandomForest,18,Wheat,57.889641819941914
+OlmoEarth,Single,RandomForest,18,Barley,22.44534824605999
+OlmoEarth,Single,RandomForest,18,Maize,72.0953223372704
+OlmoEarth,Single,RandomForest,18,Rice,62.60869565217392
+OlmoEarth,Single,RandomForest,18,Other cereals,18.687032824179393
+OlmoEarth,Single,RandomForest,18,Fresh vegetables,4.563758389261745
+OlmoEarth,Single,RandomForest,18,Dry pulses,0.4987531172069825
+OlmoEarth,Single,RandomForest,18,Potatoes,17.78846153846154
+OlmoEarth,Single,RandomForest,18,Sugar Beet,67.24039013195639
+OlmoEarth,Single,RandomForest,18,Sunflower,34.13654618473896
+OlmoEarth,Single,RandomForest,18,Soybeans,2.7164685908319184
+OlmoEarth,Single,RandomForest,18,Rapeseed,56.66258098406583
+OlmoEarth,Single,RandomForest,18,"Flax, cotton and hemp",24.742268041237114
+OlmoEarth,Single,RandomForest,18,Grapes,41.269841269841265
+OlmoEarth,Single,RandomForest,18,Olives,69.5841497931635
+OlmoEarth,Single,RandomForest,18,Fruits,55.44462502902252
+OlmoEarth,Single,RandomForest,18,Nuts,17.2147001934236
+AlphaEarth,Single,LinearProbe,18,Wheat,60.53928405392841
+AlphaEarth,Single,LinearProbe,18,Barley,42.29284717089595
+AlphaEarth,Single,LinearProbe,18,Maize,79.29852320675106
+AlphaEarth,Single,LinearProbe,18,Rice,69.74358974358974
+AlphaEarth,Single,LinearProbe,18,Other cereals,39.41908713692946
+AlphaEarth,Single,LinearProbe,18,Fresh vegetables,22.2007722007722
+AlphaEarth,Single,LinearProbe,18,Dry pulses,23.284457478005866
+AlphaEarth,Single,LinearProbe,18,Potatoes,40.717921242968124
+AlphaEarth,Single,LinearProbe,18,Sugar Beet,66.77484787018255
+AlphaEarth,Single,LinearProbe,18,Sunflower,47.61904761904761
+AlphaEarth,Single,LinearProbe,18,Soybeans,30.953330674112483
+AlphaEarth,Single,LinearProbe,18,Rapeseed,66.8761098210627
+AlphaEarth,Single,LinearProbe,18,"Flax, cotton and hemp",55.576559546313796
+AlphaEarth,Single,LinearProbe,18,Grapes,51.354838709677416
+AlphaEarth,Single,LinearProbe,18,Olives,71.36742509574229
+AlphaEarth,Single,LinearProbe,18,Fruits,58.75610273827213
+AlphaEarth,Single,LinearProbe,18,Nuts,32.972209138012246
+AlphaEarth,Single,RandomForest,18,Wheat,66.90285641982729
+AlphaEarth,Single,RandomForest,18,Barley,39.94484932046484
+AlphaEarth,Single,RandomForest,18,Maize,74.35349940688019
+AlphaEarth,Single,RandomForest,18,Rice,74.4186046511628
+AlphaEarth,Single,RandomForest,18,Other cereals,26.37329286798179
+AlphaEarth,Single,RandomForest,18,Fresh vegetables,21.389195148842337
+AlphaEarth,Single,RandomForest,18,Dry pulses,6.580493537015276
+AlphaEarth,Single,RandomForest,18,Potatoes,45.886442641946694
+AlphaEarth,Single,RandomForest,18,Sugar Beet,66.33906633906635
+AlphaEarth,Single,RandomForest,18,Sunflower,56.63082437275986
+AlphaEarth,Single,RandomForest,18,Soybeans,14.442700156985872
+AlphaEarth,Single,RandomForest,18,Rapeseed,65.08474576271186
+AlphaEarth,Single,RandomForest,18,"Flax, cotton and hemp",78.64406779661017
+AlphaEarth,Single,RandomForest,18,Grapes,54.88689714041827
+AlphaEarth,Single,RandomForest,18,Olives,71.21598639455783
+AlphaEarth,Single,RandomForest,18,Fruits,60.44987988643808
+AlphaEarth,Single,RandomForest,18,Nuts,29.491525423728817
+Presto,Single,LinearProbe,18,Wheat,57.32023721275018
+Presto,Single,LinearProbe,18,Barley,36.62324649298597
+Presto,Single,LinearProbe,18,Maize,69.58427504965414
+Presto,Single,LinearProbe,18,Rice,51.04602510460251
+Presto,Single,LinearProbe,18,Other cereals,29.98185117967332
+Presto,Single,LinearProbe,18,Fresh vegetables,18.763326226012794
+Presto,Single,LinearProbe,18,Dry pulses,13.01901955531744
+Presto,Single,LinearProbe,18,Potatoes,30.69164265129683
+Presto,Single,LinearProbe,18,Sugar Beet,55.266666666666666
+Presto,Single,LinearProbe,18,Sunflower,39.08794788273616
+Presto,Single,LinearProbe,18,Soybeans,27.006610009442873
+Presto,Single,LinearProbe,18,Rapeseed,57.703272893146305
+Presto,Single,LinearProbe,18,"Flax, cotton and hemp",35.2185089974293
+Presto,Single,LinearProbe,18,Grapes,39.626033800791085
+Presto,Single,LinearProbe,18,Olives,63.71422602882808
+Presto,Single,LinearProbe,18,Fruits,50.40871934604905
+Presto,Single,LinearProbe,18,Nuts,26.476190476190474
+Presto,Single,RandomForest,18,Wheat,58.80508622191256
+Presto,Single,RandomForest,18,Barley,33.57541899441341
+Presto,Single,RandomForest,18,Maize,64.35134543863488
+Presto,Single,RandomForest,18,Rice,9.63855421686747
+Presto,Single,RandomForest,18,Other cereals,21.15702479338843
+Presto,Single,RandomForest,18,Fresh vegetables,15.015641293013557
+Presto,Single,RandomForest,18,Dry pulses,3.428571428571429
+Presto,Single,RandomForest,18,Potatoes,29.784454604833442
+Presto,Single,RandomForest,18,Sugar Beet,60.778935820076796
+Presto,Single,RandomForest,18,Sunflower,42.35122307411464
+Presto,Single,RandomForest,18,Soybeans,1.3582342954159592
+Presto,Single,RandomForest,18,Rapeseed,57.52038234467247
+Presto,Single,RandomForest,18,"Flax, cotton and hemp",57.04697986577181
+Presto,Single,RandomForest,18,Grapes,31.347387717690196
+Presto,Single,RandomForest,18,Olives,64.94552344860256
+Presto,Single,RandomForest,18,Fruits,50.858034321372855
+Presto,Single,RandomForest,18,Nuts,15.924170616113745
+Tessera,Single,LinearProbe,18,Wheat,59.24260933300758
+Tessera,Single,LinearProbe,18,Barley,55.429946758077456
+Tessera,Single,LinearProbe,18,Maize,83.62674921003418
+Tessera,Single,LinearProbe,18,Rice,76.92307692307693
+Tessera,Single,LinearProbe,18,Other cereals,46.01992282150229
+Tessera,Single,LinearProbe,18,Fresh vegetables,28.402948402948404
+Tessera,Single,LinearProbe,18,Dry pulses,40.15223596574691
+Tessera,Single,LinearProbe,18,Potatoes,55.48821548821549
+Tessera,Single,LinearProbe,18,Sugar Beet,58.887122416534176
+Tessera,Single,LinearProbe,18,Sunflower,70.1492537313433
+Tessera,Single,LinearProbe,18,Soybeans,59.492385786802025
+Tessera,Single,LinearProbe,18,Rapeseed,70.2147777927867
+Tessera,Single,LinearProbe,18,"Flax, cotton and hemp",35.93556381660471
+Tessera,Single,LinearProbe,18,Grapes,49.244712990936556
+Tessera,Single,LinearProbe,18,Olives,73.04306447775399
+Tessera,Single,LinearProbe,18,Fruits,56.30587787711623
+Tessera,Single,LinearProbe,18,Nuts,36.52849740932643
+Tessera,Single,RandomForest,18,Wheat,68.215423639682
+Tessera,Single,RandomForest,18,Barley,46.91619359184066
+Tessera,Single,RandomForest,18,Maize,85.25068777721633
+Tessera,Single,RandomForest,18,Rice,76.5625
+Tessera,Single,RandomForest,18,Other cereals,29.6285506190823
+Tessera,Single,RandomForest,18,Fresh vegetables,25.4323499491353
+Tessera,Single,RandomForest,18,Dry pulses,30.81032947462155
+Tessera,Single,RandomForest,18,Potatoes,62.05821205821206
+Tessera,Single,RandomForest,18,Sugar Beet,80.56092843326887
+Tessera,Single,RandomForest,18,Sunflower,73.91304347826086
+Tessera,Single,RandomForest,18,Soybeans,42.34354194407457
+Tessera,Single,RandomForest,18,Rapeseed,72.11721611721612
+Tessera,Single,RandomForest,18,"Flax, cotton and hemp",35.0
+Tessera,Single,RandomForest,18,Grapes,51.885619560712804
+Tessera,Single,RandomForest,18,Olives,69.97123257357822
+Tessera,Single,RandomForest,18,Fruits,56.13126079447323
+Tessera,Single,RandomForest,18,Nuts,27.843803056027166
+CLIP,Single,LinearProbe,18,Wheat,58.378480237433465
+CLIP,Single,LinearProbe,18,Barley,50.62707960071666
+CLIP,Single,LinearProbe,18,Maize,89.2896174863388
+CLIP,Single,LinearProbe,18,Rice,59.63302752293578
+CLIP,Single,LinearProbe,18,Other cereals,49.280455153949134
+CLIP,Single,LinearProbe,18,Fresh vegetables,52.58426966292134
+CLIP,Single,LinearProbe,18,Dry pulses,38.857142857142854
+CLIP,Single,LinearProbe,18,Potatoes,57.90452572845629
+CLIP,Single,LinearProbe,18,Sugar Beet,80.80903104421449
+CLIP,Single,LinearProbe,18,Sunflower,70.49864898059445
+CLIP,Single,LinearProbe,18,Soybeans,45.30095036958817
+CLIP,Single,LinearProbe,18,Rapeseed,67.7268475210477
+CLIP,Single,LinearProbe,18,"Flax, cotton and hemp",59.624413145539904
+CLIP,Single,LinearProbe,18,Grapes,92.22591362126245
+CLIP,Single,LinearProbe,18,Olives,86.58718330849479
+CLIP,Single,LinearProbe,18,Fruits,75.01683501683502
+CLIP,Single,LinearProbe,18,Nuts,51.737451737451735
+CLIP,Single,RandomForest,18,Wheat,60.47078912062447
+CLIP,Single,RandomForest,18,Barley,15.447523852794184
+CLIP,Single,RandomForest,18,Maize,83.83418458249197
+CLIP,Single,RandomForest,18,Rice,49.523809523809526
+CLIP,Single,RandomForest,18,Other cereals,20.494585421044125
+CLIP,Single,RandomForest,18,Fresh vegetables,32.75488069414317
+CLIP,Single,RandomForest,18,Dry pulses,4.16156670746634
+CLIP,Single,RandomForest,18,Potatoes,71.05121293800539
+CLIP,Single,RandomForest,18,Sugar Beet,82.38482384823848
+CLIP,Single,RandomForest,18,Sunflower,64.53104359313078
+CLIP,Single,RandomForest,18,Soybeans,13.120000000000001
+CLIP,Single,RandomForest,18,Rapeseed,51.06857461438394
+CLIP,Single,RandomForest,18,"Flax, cotton and hemp",61.92468619246861
+CLIP,Single,RandomForest,18,Grapes,91.33405249910105
+CLIP,Single,RandomForest,18,Olives,83.04761904761905
+CLIP,Single,RandomForest,18,Fruits,72.15787215787216
+CLIP,Single,RandomForest,18,Nuts,25.225225225225223
+OlmoEarth+CLIP,NaiveConcat,LinearProbe,18,Wheat,68.54765780430458
+OlmoEarth+CLIP,NaiveConcat,LinearProbe,18,Barley,59.56540264167022
+OlmoEarth+CLIP,NaiveConcat,LinearProbe,18,Maize,93.39589024824801
+OlmoEarth+CLIP,NaiveConcat,LinearProbe,18,Rice,88.59060402684564
+OlmoEarth+CLIP,NaiveConcat,LinearProbe,18,Other cereals,53.67695338148392
+OlmoEarth+CLIP,NaiveConcat,LinearProbe,18,Fresh vegetables,56.40718562874252
+OlmoEarth+CLIP,NaiveConcat,LinearProbe,18,Dry pulses,47.784632641615254
+OlmoEarth+CLIP,NaiveConcat,LinearProbe,18,Potatoes,77.09030100334448
+OlmoEarth+CLIP,NaiveConcat,LinearProbe,18,Sugar Beet,85.28724894908922
+OlmoEarth+CLIP,NaiveConcat,LinearProbe,18,Sunflower,81.47765435288039
+OlmoEarth+CLIP,NaiveConcat,LinearProbe,18,Soybeans,66.50326797385621
+OlmoEarth+CLIP,NaiveConcat,LinearProbe,18,Rapeseed,80.4862278546489
+OlmoEarth+CLIP,NaiveConcat,LinearProbe,18,"Flax, cotton and hemp",60.851063829787236
+OlmoEarth+CLIP,NaiveConcat,LinearProbe,18,Grapes,91.89368770764119
+OlmoEarth+CLIP,NaiveConcat,LinearProbe,18,Olives,87.44738796731865
+OlmoEarth+CLIP,NaiveConcat,LinearProbe,18,Fruits,72.72296015180265
+OlmoEarth+CLIP,NaiveConcat,LinearProbe,18,Nuts,51.13500597371565
+OlmoEarth+CLIP,NaiveConcat,RandomForest,18,Wheat,61.84793214741424
+OlmoEarth+CLIP,NaiveConcat,RandomForest,18,Barley,15.681043426708166
+OlmoEarth+CLIP,NaiveConcat,RandomForest,18,Maize,85.33091773764366
+OlmoEarth+CLIP,NaiveConcat,RandomForest,18,Rice,70.49180327868852
+OlmoEarth+CLIP,NaiveConcat,RandomForest,18,Other cereals,20.71229279501067
+OlmoEarth+CLIP,NaiveConcat,RandomForest,18,Fresh vegetables,26.006904487917147
+OlmoEarth+CLIP,NaiveConcat,RandomForest,18,Dry pulses,0.7471980074719801
+OlmoEarth+CLIP,NaiveConcat,RandomForest,18,Potatoes,67.99317794201251
+OlmoEarth+CLIP,NaiveConcat,RandomForest,18,Sugar Beet,84.50082735797021
+OlmoEarth+CLIP,NaiveConcat,RandomForest,18,Sunflower,61.79966044142614
+OlmoEarth+CLIP,NaiveConcat,RandomForest,18,Soybeans,5.360134003350084
+OlmoEarth+CLIP,NaiveConcat,RandomForest,18,Rapeseed,64.71694886266461
+OlmoEarth+CLIP,NaiveConcat,RandomForest,18,"Flax, cotton and hemp",60.50420168067227
+OlmoEarth+CLIP,NaiveConcat,RandomForest,18,Grapes,90.88267344714856
+OlmoEarth+CLIP,NaiveConcat,RandomForest,18,Olives,81.17756142790913
+OlmoEarth+CLIP,NaiveConcat,RandomForest,18,Fruits,71.44427346669598
+OlmoEarth+CLIP,NaiveConcat,RandomForest,18,Nuts,23.976023976023978
+OlmoEarth+CLIP,PCAFusion32,LinearProbe,18,Wheat,50.34511177500772
+OlmoEarth+CLIP,PCAFusion32,LinearProbe,18,Barley,42.667220606564186
+OlmoEarth+CLIP,PCAFusion32,LinearProbe,18,Maize,91.42993270204276
+OlmoEarth+CLIP,PCAFusion32,LinearProbe,18,Rice,69.52380952380952
+OlmoEarth+CLIP,PCAFusion32,LinearProbe,18,Other cereals,47.68482987976464
+OlmoEarth+CLIP,PCAFusion32,LinearProbe,18,Fresh vegetables,39.111111111111114
+OlmoEarth+CLIP,PCAFusion32,LinearProbe,18,Dry pulses,28.296943231441045
+OlmoEarth+CLIP,PCAFusion32,LinearProbe,18,Potatoes,58.62361937128292
+OlmoEarth+CLIP,PCAFusion32,LinearProbe,18,Sugar Beet,71.37781287011448
+OlmoEarth+CLIP,PCAFusion32,LinearProbe,18,Sunflower,69.22642574816487
+OlmoEarth+CLIP,PCAFusion32,LinearProbe,18,Soybeans,42.48927038626609
+OlmoEarth+CLIP,PCAFusion32,LinearProbe,18,Rapeseed,74.56427729000131
+OlmoEarth+CLIP,PCAFusion32,LinearProbe,18,"Flax, cotton and hemp",34.81781376518219
+OlmoEarth+CLIP,PCAFusion32,LinearProbe,18,Grapes,76.78244972577697
+OlmoEarth+CLIP,PCAFusion32,LinearProbe,18,Olives,79.59465684016583
+OlmoEarth+CLIP,PCAFusion32,LinearProbe,18,Fruits,69.4115200665419
+OlmoEarth+CLIP,PCAFusion32,LinearProbe,18,Nuts,37.99442896935933
+OlmoEarth+CLIP,PCAFusion32,RandomForest,18,Wheat,62.83769063180827
+OlmoEarth+CLIP,PCAFusion32,RandomForest,18,Barley,23.031697341513294
+OlmoEarth+CLIP,PCAFusion32,RandomForest,18,Maize,86.02338160879428
+OlmoEarth+CLIP,PCAFusion32,RandomForest,18,Rice,62.06896551724138
+OlmoEarth+CLIP,PCAFusion32,RandomForest,18,Other cereals,34.81451284141867
+OlmoEarth+CLIP,PCAFusion32,RandomForest,18,Fresh vegetables,26.524064171122998
+OlmoEarth+CLIP,PCAFusion32,RandomForest,18,Dry pulses,0.4968944099378882
+OlmoEarth+CLIP,PCAFusion32,RandomForest,18,Potatoes,46.44776119402985
+OlmoEarth+CLIP,PCAFusion32,RandomForest,18,Sugar Beet,76.40337804272231
+OlmoEarth+CLIP,PCAFusion32,RandomForest,18,Sunflower,56.088801828272935
+OlmoEarth+CLIP,PCAFusion32,RandomForest,18,Soybeans,2.0202020202020203
+OlmoEarth+CLIP,PCAFusion32,RandomForest,18,Rapeseed,67.26291441788743
+OlmoEarth+CLIP,PCAFusion32,RandomForest,18,"Flax, cotton and hemp",40.0
+OlmoEarth+CLIP,PCAFusion32,RandomForest,18,Grapes,73.40676632572777
+OlmoEarth+CLIP,PCAFusion32,RandomForest,18,Olives,77.30465320456541
+OlmoEarth+CLIP,PCAFusion32,RandomForest,18,Fruits,65.98598598598599
+OlmoEarth+CLIP,PCAFusion32,RandomForest,18,Nuts,18.73727087576375
+OlmoEarth+CLIP,LPFusion32,LinearProbe,18,Wheat,70.45934871684278
+OlmoEarth+CLIP,LPFusion32,LinearProbe,18,Barley,59.04112048841803
+OlmoEarth+CLIP,LPFusion32,LinearProbe,18,Maize,93.48928805872173
+OlmoEarth+CLIP,LPFusion32,LinearProbe,18,Rice,87.27272727272727
+OlmoEarth+CLIP,LPFusion32,LinearProbe,18,Other cereals,54.12836438923395
+OlmoEarth+CLIP,LPFusion32,LinearProbe,18,Fresh vegetables,54.99425947187141
+OlmoEarth+CLIP,LPFusion32,LinearProbe,18,Dry pulses,47.14912280701755
+OlmoEarth+CLIP,LPFusion32,LinearProbe,18,Potatoes,78.11194653299917
+OlmoEarth+CLIP,LPFusion32,LinearProbe,18,Sugar Beet,87.19165085388994
+OlmoEarth+CLIP,LPFusion32,LinearProbe,18,Sunflower,81.90033565711335
+OlmoEarth+CLIP,LPFusion32,LinearProbe,18,Soybeans,67.55277560594214
+OlmoEarth+CLIP,LPFusion32,LinearProbe,18,Rapeseed,81.6385289883523
+OlmoEarth+CLIP,LPFusion32,LinearProbe,18,"Flax, cotton and hemp",66.66666666666666
+OlmoEarth+CLIP,LPFusion32,LinearProbe,18,Grapes,92.23560910307899
+OlmoEarth+CLIP,LPFusion32,LinearProbe,18,Olives,88.25012607160868
+OlmoEarth+CLIP,LPFusion32,LinearProbe,18,Fruits,77.75784753363229
+OlmoEarth+CLIP,LPFusion32,LinearProbe,18,Nuts,56.417764763299175
+OlmoEarth+CLIP,LPFusion32,RandomForest,18,Wheat,72.78962667798935
+OlmoEarth+CLIP,LPFusion32,RandomForest,18,Barley,52.51798561151079
+OlmoEarth+CLIP,LPFusion32,RandomForest,18,Maize,93.52292513058619
+OlmoEarth+CLIP,LPFusion32,RandomForest,18,Rice,76.92307692307693
+OlmoEarth+CLIP,LPFusion32,RandomForest,18,Other cereals,50.66140635878394
+OlmoEarth+CLIP,LPFusion32,RandomForest,18,Fresh vegetables,63.335782512858195
+OlmoEarth+CLIP,LPFusion32,RandomForest,18,Dry pulses,49.39209726443769
+OlmoEarth+CLIP,LPFusion32,RandomForest,18,Potatoes,82.26102941176471
+OlmoEarth+CLIP,LPFusion32,RandomForest,18,Sugar Beet,90.6584992343032
+OlmoEarth+CLIP,LPFusion32,RandomForest,18,Sunflower,82.62506724045186
+OlmoEarth+CLIP,LPFusion32,RandomForest,18,Soybeans,71.7948717948718
+OlmoEarth+CLIP,LPFusion32,RandomForest,18,Rapeseed,81.91431670281996
+OlmoEarth+CLIP,LPFusion32,RandomForest,18,"Flax, cotton and hemp",83.55263157894737
+OlmoEarth+CLIP,LPFusion32,RandomForest,18,Grapes,93.45279117849759
+OlmoEarth+CLIP,LPFusion32,RandomForest,18,Olives,89.62383236556425
+OlmoEarth+CLIP,LPFusion32,RandomForest,18,Fruits,80.8296668761785
+OlmoEarth+CLIP,LPFusion32,RandomForest,18,Nuts,58.1319399085565
+AlphaEarth+CLIP,NaiveConcat,LinearProbe,18,Wheat,70.57946402684007
+AlphaEarth+CLIP,NaiveConcat,LinearProbe,18,Barley,53.65186468496398
+AlphaEarth+CLIP,NaiveConcat,LinearProbe,18,Maize,92.23520992366412
+AlphaEarth+CLIP,NaiveConcat,LinearProbe,18,Rice,84.57142857142857
+AlphaEarth+CLIP,NaiveConcat,LinearProbe,18,Other cereals,53.213077790304396
+AlphaEarth+CLIP,NaiveConcat,LinearProbe,18,Fresh vegetables,52.55936675461741
+AlphaEarth+CLIP,NaiveConcat,LinearProbe,18,Dry pulses,45.937161430119176
+AlphaEarth+CLIP,NaiveConcat,LinearProbe,18,Potatoes,70.97253155159613
+AlphaEarth+CLIP,NaiveConcat,LinearProbe,18,Sugar Beet,76.81341719077568
+AlphaEarth+CLIP,NaiveConcat,LinearProbe,18,Sunflower,80.71410611013327
+AlphaEarth+CLIP,NaiveConcat,LinearProbe,18,Soybeans,53.182629387269486
+AlphaEarth+CLIP,NaiveConcat,LinearProbe,18,Rapeseed,79.00466562986003
+AlphaEarth+CLIP,NaiveConcat,LinearProbe,18,"Flax, cotton and hemp",74.13333333333333
+AlphaEarth+CLIP,NaiveConcat,LinearProbe,18,Grapes,92.07092673134828
+AlphaEarth+CLIP,NaiveConcat,LinearProbe,18,Olives,88.24443293630243
+AlphaEarth+CLIP,NaiveConcat,LinearProbe,18,Fruits,75.20775623268699
+AlphaEarth+CLIP,NaiveConcat,LinearProbe,18,Nuts,53.69068541300527
+AlphaEarth+CLIP,NaiveConcat,RandomForest,18,Wheat,64.87580993520518
+AlphaEarth+CLIP,NaiveConcat,RandomForest,18,Barley,20.88500563697858
+AlphaEarth+CLIP,NaiveConcat,RandomForest,18,Maize,83.41724191622983
+AlphaEarth+CLIP,NaiveConcat,RandomForest,18,Rice,71.54471544715447
+AlphaEarth+CLIP,NaiveConcat,RandomForest,18,Other cereals,23.2477006026007
+AlphaEarth+CLIP,NaiveConcat,RandomForest,18,Fresh vegetables,30.718232044198896
+AlphaEarth+CLIP,NaiveConcat,RandomForest,18,Dry pulses,0.7490636704119851
+AlphaEarth+CLIP,NaiveConcat,RandomForest,18,Potatoes,71.21464226289518
+AlphaEarth+CLIP,NaiveConcat,RandomForest,18,Sugar Beet,85.13661202185793
+AlphaEarth+CLIP,NaiveConcat,RandomForest,18,Sunflower,67.84679755391052
+AlphaEarth+CLIP,NaiveConcat,RandomForest,18,Soybeans,10.440456769983687
+AlphaEarth+CLIP,NaiveConcat,RandomForest,18,Rapeseed,67.27787964660776
+AlphaEarth+CLIP,NaiveConcat,RandomForest,18,"Flax, cotton and hemp",75.47169811320755
+AlphaEarth+CLIP,NaiveConcat,RandomForest,18,Grapes,90.90255303847536
+AlphaEarth+CLIP,NaiveConcat,RandomForest,18,Olives,82.23955943093162
+AlphaEarth+CLIP,NaiveConcat,RandomForest,18,Fruits,74.46270543615677
+AlphaEarth+CLIP,NaiveConcat,RandomForest,18,Nuts,31.09404990403071
+AlphaEarth+CLIP,PCAFusion32,LinearProbe,18,Wheat,56.00894354387926
+AlphaEarth+CLIP,PCAFusion32,LinearProbe,18,Barley,40.562384239771006
+AlphaEarth+CLIP,PCAFusion32,LinearProbe,18,Maize,90.07319581392535
+AlphaEarth+CLIP,PCAFusion32,LinearProbe,18,Rice,41.25
+AlphaEarth+CLIP,PCAFusion32,LinearProbe,18,Other cereals,45.470916621645955
+AlphaEarth+CLIP,PCAFusion32,LinearProbe,18,Fresh vegetables,37.7405338299193
+AlphaEarth+CLIP,PCAFusion32,LinearProbe,18,Dry pulses,24.845311756306522
+AlphaEarth+CLIP,PCAFusion32,LinearProbe,18,Potatoes,60.26831785345718
+AlphaEarth+CLIP,PCAFusion32,LinearProbe,18,Sugar Beet,72.97748123436196
+AlphaEarth+CLIP,PCAFusion32,LinearProbe,18,Sunflower,66.4600715137068
+AlphaEarth+CLIP,PCAFusion32,LinearProbe,18,Soybeans,46.81933842239186
+AlphaEarth+CLIP,PCAFusion32,LinearProbe,18,Rapeseed,61.81994426269235
+AlphaEarth+CLIP,PCAFusion32,LinearProbe,18,"Flax, cotton and hemp",49.33586337760911
+AlphaEarth+CLIP,PCAFusion32,LinearProbe,18,Grapes,86.43287283032235
+AlphaEarth+CLIP,PCAFusion32,LinearProbe,18,Olives,81.0889645114244
+AlphaEarth+CLIP,PCAFusion32,LinearProbe,18,Fruits,69.53073364177132
+AlphaEarth+CLIP,PCAFusion32,LinearProbe,18,Nuts,45.309568480300186
+AlphaEarth+CLIP,PCAFusion32,RandomForest,18,Wheat,63.057818133262124
+AlphaEarth+CLIP,PCAFusion32,RandomForest,18,Barley,16.148715765574003
+AlphaEarth+CLIP,PCAFusion32,RandomForest,18,Maize,85.18079765329723
+AlphaEarth+CLIP,PCAFusion32,RandomForest,18,Rice,40.4040404040404
+AlphaEarth+CLIP,PCAFusion32,RandomForest,18,Other cereals,27.466820542412
+AlphaEarth+CLIP,PCAFusion32,RandomForest,18,Fresh vegetables,30.099009900990097
+AlphaEarth+CLIP,PCAFusion32,RandomForest,18,Dry pulses,5.288461538461538
+AlphaEarth+CLIP,PCAFusion32,RandomForest,18,Potatoes,65.05791505791507
+AlphaEarth+CLIP,PCAFusion32,RandomForest,18,Sugar Beet,79.29423975090815
+AlphaEarth+CLIP,PCAFusion32,RandomForest,18,Sunflower,62.867760916692475
+AlphaEarth+CLIP,PCAFusion32,RandomForest,18,Soybeans,4.682274247491638
+AlphaEarth+CLIP,PCAFusion32,RandomForest,18,Rapeseed,57.056451612903224
+AlphaEarth+CLIP,PCAFusion32,RandomForest,18,"Flax, cotton and hemp",44.34782608695652
+AlphaEarth+CLIP,PCAFusion32,RandomForest,18,Grapes,84.61255967682703
+AlphaEarth+CLIP,PCAFusion32,RandomForest,18,Olives,79.18386061439706
+AlphaEarth+CLIP,PCAFusion32,RandomForest,18,Fruits,68.74236874236874
+AlphaEarth+CLIP,PCAFusion32,RandomForest,18,Nuts,18.107833163784335
+AlphaEarth+CLIP,LPFusion32,LinearProbe,18,Wheat,69.3564949512237
+AlphaEarth+CLIP,LPFusion32,LinearProbe,18,Barley,54.62120567978913
+AlphaEarth+CLIP,LPFusion32,LinearProbe,18,Maize,91.8519394512772
+AlphaEarth+CLIP,LPFusion32,LinearProbe,18,Rice,82.48587570621469
+AlphaEarth+CLIP,LPFusion32,LinearProbe,18,Other cereals,52.844071314026976
+AlphaEarth+CLIP,LPFusion32,LinearProbe,18,Fresh vegetables,53.46851654215582
+AlphaEarth+CLIP,LPFusion32,LinearProbe,18,Dry pulses,45.70230607966457
+AlphaEarth+CLIP,LPFusion32,LinearProbe,18,Potatoes,69.3033381712627
+AlphaEarth+CLIP,LPFusion32,LinearProbe,18,Sugar Beet,80.97826086956522
+AlphaEarth+CLIP,LPFusion32,LinearProbe,18,Sunflower,80.81590498321715
+AlphaEarth+CLIP,LPFusion32,LinearProbe,18,Soybeans,57.42821473158551
+AlphaEarth+CLIP,LPFusion32,LinearProbe,18,Rapeseed,79.61828799316338
+AlphaEarth+CLIP,LPFusion32,LinearProbe,18,"Flax, cotton and hemp",69.54314720812182
+AlphaEarth+CLIP,LPFusion32,LinearProbe,18,Grapes,93.23819232076113
+AlphaEarth+CLIP,LPFusion32,LinearProbe,18,Olives,88.08423215202876
+AlphaEarth+CLIP,LPFusion32,LinearProbe,18,Fruits,76.68941228263262
+AlphaEarth+CLIP,LPFusion32,LinearProbe,18,Nuts,54.213107445385646
+AlphaEarth+CLIP,LPFusion32,RandomForest,18,Wheat,71.639708214399
+AlphaEarth+CLIP,LPFusion32,RandomForest,18,Barley,47.314691522414556
+AlphaEarth+CLIP,LPFusion32,RandomForest,18,Maize,91.22609673790775
+AlphaEarth+CLIP,LPFusion32,RandomForest,18,Rice,81.203007518797
+AlphaEarth+CLIP,LPFusion32,RandomForest,18,Other cereals,41.62062615101289
+AlphaEarth+CLIP,LPFusion32,RandomForest,18,Fresh vegetables,61.58315177923021
+AlphaEarth+CLIP,LPFusion32,RandomForest,18,Dry pulses,50.26985350809561
+AlphaEarth+CLIP,LPFusion32,RandomForest,18,Potatoes,80.01768346595934
+AlphaEarth+CLIP,LPFusion32,RandomForest,18,Sugar Beet,87.85894206549119
+AlphaEarth+CLIP,LPFusion32,RandomForest,18,Sunflower,82.4696802646086
+AlphaEarth+CLIP,LPFusion32,RandomForest,18,Soybeans,73.59050445103857
+AlphaEarth+CLIP,LPFusion32,RandomForest,18,Rapeseed,82.01459436256975
+AlphaEarth+CLIP,LPFusion32,RandomForest,18,"Flax, cotton and hemp",83.5016835016835
+AlphaEarth+CLIP,LPFusion32,RandomForest,18,Grapes,93.41692789968651
+AlphaEarth+CLIP,LPFusion32,RandomForest,18,Olives,89.08720040795512
+AlphaEarth+CLIP,LPFusion32,RandomForest,18,Fruits,81.00847282496385
+AlphaEarth+CLIP,LPFusion32,RandomForest,18,Nuts,60.37491919844861
+Presto+CLIP,NaiveConcat,LinearProbe,18,Wheat,67.48385971034723
+Presto+CLIP,NaiveConcat,LinearProbe,18,Barley,54.39753361308556
+Presto+CLIP,NaiveConcat,LinearProbe,18,Maize,91.45013083429684
+Presto+CLIP,NaiveConcat,LinearProbe,18,Rice,74.69879518072288
+Presto+CLIP,NaiveConcat,LinearProbe,18,Other cereals,51.945854483925544
+Presto+CLIP,NaiveConcat,LinearProbe,18,Fresh vegetables,53.179190751445084
+Presto+CLIP,NaiveConcat,LinearProbe,18,Dry pulses,44.94773519163763
+Presto+CLIP,NaiveConcat,LinearProbe,18,Potatoes,62.83870967741936
+Presto+CLIP,NaiveConcat,LinearProbe,18,Sugar Beet,82.2550831792976
+Presto+CLIP,NaiveConcat,LinearProbe,18,Sunflower,75.66290364925177
+Presto+CLIP,NaiveConcat,LinearProbe,18,Soybeans,51.31337813072694
+Presto+CLIP,NaiveConcat,LinearProbe,18,Rapeseed,76.04439456291308
+Presto+CLIP,NaiveConcat,LinearProbe,18,"Flax, cotton and hemp",62.40409207161125
+Presto+CLIP,NaiveConcat,LinearProbe,18,Grapes,92.35993208828522
+Presto+CLIP,NaiveConcat,LinearProbe,18,Olives,87.06739526411657
+Presto+CLIP,NaiveConcat,LinearProbe,18,Fruits,73.82612738261274
+Presto+CLIP,NaiveConcat,LinearProbe,18,Nuts,51.7428350116189
+Presto+CLIP,NaiveConcat,RandomForest,18,Wheat,61.82801081189309
+Presto+CLIP,NaiveConcat,RandomForest,18,Barley,19.668315391329646
+Presto+CLIP,NaiveConcat,RandomForest,18,Maize,83.58776358776359
+Presto+CLIP,NaiveConcat,RandomForest,18,Rice,52.336448598130836
+Presto+CLIP,NaiveConcat,RandomForest,18,Other cereals,23.68295400286487
+Presto+CLIP,NaiveConcat,RandomForest,18,Fresh vegetables,28.34467120181406
+Presto+CLIP,NaiveConcat,RandomForest,18,Dry pulses,2.466091245376079
+Presto+CLIP,NaiveConcat,RandomForest,18,Potatoes,69.89543203082003
+Presto+CLIP,NaiveConcat,RandomForest,18,Sugar Beet,83.31527627302276
+Presto+CLIP,NaiveConcat,RandomForest,18,Sunflower,63.630274614869386
+Presto+CLIP,NaiveConcat,RandomForest,18,Soybeans,8.866995073891626
+Presto+CLIP,NaiveConcat,RandomForest,18,Rapeseed,66.8392106114526
+Presto+CLIP,NaiveConcat,RandomForest,18,"Flax, cotton and hemp",61.34453781512605
+Presto+CLIP,NaiveConcat,RandomForest,18,Grapes,91.68747770246165
+Presto+CLIP,NaiveConcat,RandomForest,18,Olives,83.1524303916942
+Presto+CLIP,NaiveConcat,RandomForest,18,Fruits,73.21428571428571
+Presto+CLIP,NaiveConcat,RandomForest,18,Nuts,28.54349951124145
+Presto+CLIP,PCAFusion32,LinearProbe,18,Wheat,42.830417079344116
+Presto+CLIP,PCAFusion32,LinearProbe,18,Barley,40.031595576619274
+Presto+CLIP,PCAFusion32,LinearProbe,18,Maize,88.17581885330266
+Presto+CLIP,PCAFusion32,LinearProbe,18,Rice,29.14798206278027
+Presto+CLIP,PCAFusion32,LinearProbe,18,Other cereals,44.61089647559726
+Presto+CLIP,PCAFusion32,LinearProbe,18,Fresh vegetables,35.59831629585087
+Presto+CLIP,PCAFusion32,LinearProbe,18,Dry pulses,25.30459231490159
+Presto+CLIP,PCAFusion32,LinearProbe,18,Potatoes,55.10585305105853
+Presto+CLIP,PCAFusion32,LinearProbe,18,Sugar Beet,68.33731105807477
+Presto+CLIP,PCAFusion32,LinearProbe,18,Sunflower,62.21795487277964
+Presto+CLIP,PCAFusion32,LinearProbe,18,Soybeans,42.29848363926576
+Presto+CLIP,PCAFusion32,LinearProbe,18,Rapeseed,57.862950058072
+Presto+CLIP,PCAFusion32,LinearProbe,18,"Flax, cotton and hemp",45.07042253521127
+Presto+CLIP,PCAFusion32,LinearProbe,18,Grapes,84.37611726850197
+Presto+CLIP,PCAFusion32,LinearProbe,18,Olives,79.62833914053427
+Presto+CLIP,PCAFusion32,LinearProbe,18,Fruits,68.84105240269623
+Presto+CLIP,PCAFusion32,LinearProbe,18,Nuts,44.097763910556424
+Presto+CLIP,PCAFusion32,RandomForest,18,Wheat,62.04162537165511
+Presto+CLIP,PCAFusion32,RandomForest,18,Barley,17.92594616750922
+Presto+CLIP,PCAFusion32,RandomForest,18,Maize,84.97230329382333
+Presto+CLIP,PCAFusion32,RandomForest,18,Rice,44.44444444444444
+Presto+CLIP,PCAFusion32,RandomForest,18,Other cereals,32.752613240418114
+Presto+CLIP,PCAFusion32,RandomForest,18,Fresh vegetables,26.08695652173913
+Presto+CLIP,PCAFusion32,RandomForest,18,Dry pulses,5.104408352668213
+Presto+CLIP,PCAFusion32,RandomForest,18,Potatoes,63.835877862595424
+Presto+CLIP,PCAFusion32,RandomForest,18,Sugar Beet,74.7350808700502
+Presto+CLIP,PCAFusion32,RandomForest,18,Sunflower,61.60467260989856
+Presto+CLIP,PCAFusion32,RandomForest,18,Soybeans,6.885245901639345
+Presto+CLIP,PCAFusion32,RandomForest,18,Rapeseed,58.07388288433618
+Presto+CLIP,PCAFusion32,RandomForest,18,"Flax, cotton and hemp",36.44859813084112
+Presto+CLIP,PCAFusion32,RandomForest,18,Grapes,84.22597212032281
+Presto+CLIP,PCAFusion32,RandomForest,18,Olives,76.91971122292715
+Presto+CLIP,PCAFusion32,RandomForest,18,Fruits,66.86567164179105
+Presto+CLIP,PCAFusion32,RandomForest,18,Nuts,24.880382775119617
+Presto+CLIP,LPFusion32,LinearProbe,18,Wheat,63.76072339438905
+Presto+CLIP,LPFusion32,LinearProbe,18,Barley,54.40062475595471
+Presto+CLIP,LPFusion32,LinearProbe,18,Maize,90.80194410692587
+Presto+CLIP,LPFusion32,LinearProbe,18,Rice,76.66666666666667
+Presto+CLIP,LPFusion32,LinearProbe,18,Other cereals,52.22668284940715
+Presto+CLIP,LPFusion32,LinearProbe,18,Fresh vegetables,53.553155201819216
+Presto+CLIP,LPFusion32,LinearProbe,18,Dry pulses,43.617571059431526
+Presto+CLIP,LPFusion32,LinearProbe,18,Potatoes,66.83133380381086
+Presto+CLIP,LPFusion32,LinearProbe,18,Sugar Beet,82.7096162955945
+Presto+CLIP,LPFusion32,LinearProbe,18,Sunflower,79.06365071015256
+Presto+CLIP,LPFusion32,LinearProbe,18,Soybeans,52.3422860712055
+Presto+CLIP,LPFusion32,LinearProbe,18,Rapeseed,74.39589943861363
+Presto+CLIP,LPFusion32,LinearProbe,18,"Flax, cotton and hemp",65.6641604010025
+Presto+CLIP,LPFusion32,LinearProbe,18,Grapes,92.7624872579001
+Presto+CLIP,LPFusion32,LinearProbe,18,Olives,86.81346494558339
+Presto+CLIP,LPFusion32,LinearProbe,18,Fruits,76.15582191780823
+Presto+CLIP,LPFusion32,LinearProbe,18,Nuts,55.00000000000001
+Presto+CLIP,LPFusion32,RandomForest,18,Wheat,70.47678992918961
+Presto+CLIP,LPFusion32,RandomForest,18,Barley,47.10662128033381
+Presto+CLIP,LPFusion32,RandomForest,18,Maize,90.87437069614028
+Presto+CLIP,LPFusion32,RandomForest,18,Rice,75.0
+Presto+CLIP,LPFusion32,RandomForest,18,Other cereals,42.933576928096045
+Presto+CLIP,LPFusion32,RandomForest,18,Fresh vegetables,58.62324204293117
+Presto+CLIP,LPFusion32,RandomForest,18,Dry pulses,46.73913043478261
+Presto+CLIP,LPFusion32,RandomForest,18,Potatoes,78.71308946672542
+Presto+CLIP,LPFusion32,RandomForest,18,Sugar Beet,87.62098828323994
+Presto+CLIP,LPFusion32,RandomForest,18,Sunflower,80.11235955056179
+Presto+CLIP,LPFusion32,RandomForest,18,Soybeans,67.4066599394551
+Presto+CLIP,LPFusion32,RandomForest,18,Rapeseed,79.48931446017208
+Presto+CLIP,LPFusion32,RandomForest,18,"Flax, cotton and hemp",75.55555555555556
+Presto+CLIP,LPFusion32,RandomForest,18,Grapes,93.35180055401662
+Presto+CLIP,LPFusion32,RandomForest,18,Olives,88.50545546815529
+Presto+CLIP,LPFusion32,RandomForest,18,Fruits,79.19463087248322
+Presto+CLIP,LPFusion32,RandomForest,18,Nuts,57.41239892183289
+Tessera+CLIP,NaiveConcat,LinearProbe,18,Wheat,66.57659336563549
+Tessera+CLIP,NaiveConcat,LinearProbe,18,Barley,61.844880106225105
+Tessera+CLIP,NaiveConcat,LinearProbe,18,Maize,93.51057401812689
+Tessera+CLIP,NaiveConcat,LinearProbe,18,Rice,88.88888888888889
+Tessera+CLIP,NaiveConcat,LinearProbe,18,Other cereals,54.23302598491199
+Tessera+CLIP,NaiveConcat,LinearProbe,18,Fresh vegetables,57.09068776628119
+Tessera+CLIP,NaiveConcat,LinearProbe,18,Dry pulses,52.178709321566465
+Tessera+CLIP,NaiveConcat,LinearProbe,18,Potatoes,71.67381974248927
+Tessera+CLIP,NaiveConcat,LinearProbe,18,Sugar Beet,84.35804701627487
+Tessera+CLIP,NaiveConcat,LinearProbe,18,Sunflower,84.93865831375619
+Tessera+CLIP,NaiveConcat,LinearProbe,18,Soybeans,68.47736625514403
+Tessera+CLIP,NaiveConcat,LinearProbe,18,Rapeseed,82.05848550632103
+Tessera+CLIP,NaiveConcat,LinearProbe,18,"Flax, cotton and hemp",70.40816326530613
+Tessera+CLIP,NaiveConcat,LinearProbe,18,Grapes,92.41706161137441
+Tessera+CLIP,NaiveConcat,LinearProbe,18,Olives,89.7119341563786
+Tessera+CLIP,NaiveConcat,LinearProbe,18,Fruits,72.6777309883577
+Tessera+CLIP,NaiveConcat,LinearProbe,18,Nuts,51.386177274502145
+Tessera+CLIP,NaiveConcat,RandomForest,18,Wheat,65.97066865523242
+Tessera+CLIP,NaiveConcat,RandomForest,18,Barley,28.605641298563068
+Tessera+CLIP,NaiveConcat,RandomForest,18,Maize,89.00506089761416
+Tessera+CLIP,NaiveConcat,RandomForest,18,Rice,75.59055118110236
+Tessera+CLIP,NaiveConcat,RandomForest,18,Other cereals,28.169874732661164
+Tessera+CLIP,NaiveConcat,RandomForest,18,Fresh vegetables,32.00883002207506
+Tessera+CLIP,NaiveConcat,RandomForest,18,Dry pulses,11.188811188811188
+Tessera+CLIP,NaiveConcat,RandomForest,18,Potatoes,75.57840616966581
+Tessera+CLIP,NaiveConcat,RandomForest,18,Sugar Beet,88.3530015392509
+Tessera+CLIP,NaiveConcat,RandomForest,18,Sunflower,79.42157953281423
+Tessera+CLIP,NaiveConcat,RandomForest,18,Soybeans,32.51798561151079
+Tessera+CLIP,NaiveConcat,RandomForest,18,Rapeseed,74.60104399701714
+Tessera+CLIP,NaiveConcat,RandomForest,18,"Flax, cotton and hemp",77.03703703703704
+Tessera+CLIP,NaiveConcat,RandomForest,18,Grapes,91.28094725511302
+Tessera+CLIP,NaiveConcat,RandomForest,18,Olives,83.41187558906692
+Tessera+CLIP,NaiveConcat,RandomForest,18,Fruits,72.47667514843087
+Tessera+CLIP,NaiveConcat,RandomForest,18,Nuts,30.36750483558994
+Tessera+CLIP,PCAFusion32,LinearProbe,18,Wheat,60.02839738011267
+Tessera+CLIP,PCAFusion32,LinearProbe,18,Barley,42.750725319532656
+Tessera+CLIP,PCAFusion32,LinearProbe,18,Maize,92.47571350992578
+Tessera+CLIP,PCAFusion32,LinearProbe,18,Rice,47.01492537313433
+Tessera+CLIP,PCAFusion32,LinearProbe,18,Other cereals,47.35246924585488
+Tessera+CLIP,PCAFusion32,LinearProbe,18,Fresh vegetables,40.25974025974026
+Tessera+CLIP,PCAFusion32,LinearProbe,18,Dry pulses,34.29368029739777
+Tessera+CLIP,PCAFusion32,LinearProbe,18,Potatoes,68.51183313277176
+Tessera+CLIP,PCAFusion32,LinearProbe,18,Sugar Beet,76.65236051502146
+Tessera+CLIP,PCAFusion32,LinearProbe,18,Sunflower,75.68947906026557
+Tessera+CLIP,PCAFusion32,LinearProbe,18,Soybeans,50.0
+Tessera+CLIP,PCAFusion32,LinearProbe,18,Rapeseed,76.92109334708613
+Tessera+CLIP,PCAFusion32,LinearProbe,18,"Flax, cotton and hemp",58.536585365853654
+Tessera+CLIP,PCAFusion32,LinearProbe,18,Grapes,85.90699325523606
+Tessera+CLIP,PCAFusion32,LinearProbe,18,Olives,81.09284332688588
+Tessera+CLIP,PCAFusion32,LinearProbe,18,Fruits,70.83696599825632
+Tessera+CLIP,PCAFusion32,LinearProbe,18,Nuts,47.392405063291136
+Tessera+CLIP,PCAFusion32,RandomForest,18,Wheat,64.96139791741078
+Tessera+CLIP,PCAFusion32,RandomForest,18,Barley,17.74620420671403
+Tessera+CLIP,PCAFusion32,RandomForest,18,Maize,88.39637967045718
+Tessera+CLIP,PCAFusion32,RandomForest,18,Rice,46.601941747572816
+Tessera+CLIP,PCAFusion32,RandomForest,18,Other cereals,28.766538625693556
+Tessera+CLIP,PCAFusion32,RandomForest,18,Fresh vegetables,29.365079365079367
+Tessera+CLIP,PCAFusion32,RandomForest,18,Dry pulses,8.13953488372093
+Tessera+CLIP,PCAFusion32,RandomForest,18,Potatoes,66.15458473355737
+Tessera+CLIP,PCAFusion32,RandomForest,18,Sugar Beet,82.16494845360825
+Tessera+CLIP,PCAFusion32,RandomForest,18,Sunflower,69.78315967333145
+Tessera+CLIP,PCAFusion32,RandomForest,18,Soybeans,9.75609756097561
+Tessera+CLIP,PCAFusion32,RandomForest,18,Rapeseed,69.79012710611883
+Tessera+CLIP,PCAFusion32,RandomForest,18,"Flax, cotton and hemp",35.23809523809524
+Tessera+CLIP,PCAFusion32,RandomForest,18,Grapes,84.6698992913092
+Tessera+CLIP,PCAFusion32,RandomForest,18,Olives,77.92832167832168
+Tessera+CLIP,PCAFusion32,RandomForest,18,Fruits,68.35808580858085
+Tessera+CLIP,PCAFusion32,RandomForest,18,Nuts,21.0
+Tessera+CLIP,LPFusion32,LinearProbe,18,Wheat,70.33875934887813
+Tessera+CLIP,LPFusion32,LinearProbe,18,Barley,60.54725991055862
+Tessera+CLIP,LPFusion32,LinearProbe,18,Maize,93.57202931635229
+Tessera+CLIP,LPFusion32,LinearProbe,18,Rice,87.5
+Tessera+CLIP,LPFusion32,LinearProbe,18,Other cereals,56.01946472019465
+Tessera+CLIP,LPFusion32,LinearProbe,18,Fresh vegetables,55.72519083969466
+Tessera+CLIP,LPFusion32,LinearProbe,18,Dry pulses,53.969901401141676
+Tessera+CLIP,LPFusion32,LinearProbe,18,Potatoes,75.77542206517471
+Tessera+CLIP,LPFusion32,LinearProbe,18,Sugar Beet,87.38781294284365
+Tessera+CLIP,LPFusion32,LinearProbe,18,Sunflower,85.90146750524109
+Tessera+CLIP,LPFusion32,LinearProbe,18,Soybeans,70.32418952618454
+Tessera+CLIP,LPFusion32,LinearProbe,18,Rapeseed,83.01352221506761
+Tessera+CLIP,LPFusion32,LinearProbe,18,"Flax, cotton and hemp",74.86338797814209
+Tessera+CLIP,LPFusion32,LinearProbe,18,Grapes,93.28767123287672
+Tessera+CLIP,LPFusion32,LinearProbe,18,Olives,89.40809968847351
+Tessera+CLIP,LPFusion32,LinearProbe,18,Fruits,77.38603188861441
+Tessera+CLIP,LPFusion32,LinearProbe,18,Nuts,55.136084284460054
+Tessera+CLIP,LPFusion32,RandomForest,18,Wheat,73.82197163847599
+Tessera+CLIP,LPFusion32,RandomForest,18,Barley,56.05549306336708
+Tessera+CLIP,LPFusion32,RandomForest,18,Maize,93.98304100360089
+Tessera+CLIP,LPFusion32,RandomForest,18,Rice,81.203007518797
+Tessera+CLIP,LPFusion32,RandomForest,18,Other cereals,47.31404958677686
+Tessera+CLIP,LPFusion32,RandomForest,18,Fresh vegetables,62.95264623955432
+Tessera+CLIP,LPFusion32,RandomForest,18,Dry pulses,57.180500658761524
+Tessera+CLIP,LPFusion32,RandomForest,18,Potatoes,81.73836698858648
+Tessera+CLIP,LPFusion32,RandomForest,18,Sugar Beet,90.763854218672
+Tessera+CLIP,LPFusion32,RandomForest,18,Sunflower,86.66841966868262
+Tessera+CLIP,LPFusion32,RandomForest,18,Soybeans,76.56090071647903
+Tessera+CLIP,LPFusion32,RandomForest,18,Rapeseed,84.69562920903209
+Tessera+CLIP,LPFusion32,RandomForest,18,"Flax, cotton and hemp",85.04983388704319
+Tessera+CLIP,LPFusion32,RandomForest,18,Grapes,93.63636363636364
+Tessera+CLIP,LPFusion32,RandomForest,18,Olives,88.9171974522293
+Tessera+CLIP,LPFusion32,RandomForest,18,Fruits,81.20395706167123
+Tessera+CLIP,LPFusion32,RandomForest,18,Nuts,61.141804788213626
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,LinearProbe,18,Wheat,63.513320985895426
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,LinearProbe,18,Barley,57.65552130266383
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,LinearProbe,18,Maize,87.27880212844946
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,LinearProbe,18,Rice,85.71428571428571
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,LinearProbe,18,Other cereals,47.753973738769865
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,LinearProbe,18,Fresh vegetables,35.38689009364219
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,LinearProbe,18,Dry pulses,42.15962441314554
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,LinearProbe,18,Potatoes,59.21192758253461
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,LinearProbe,18,Sugar Beet,75.16556291390728
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,LinearProbe,18,Sunflower,75.56818181818183
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,LinearProbe,18,Soybeans,63.751214771622934
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,LinearProbe,18,Rapeseed,68.97347174163782
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,LinearProbe,18,"Flax, cotton and hemp",69.90291262135922
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,LinearProbe,18,Grapes,55.940740740740736
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,LinearProbe,18,Olives,75.86701745993781
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,LinearProbe,18,Fruits,62.111275650518294
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,LinearProbe,18,Nuts,33.382280959373475
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,RandomForest,18,Wheat,66.2013723238213
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,RandomForest,18,Barley,41.12441436751692
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,RandomForest,18,Maize,82.55993196194122
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,RandomForest,18,Rice,77.51937984496125
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,RandomForest,18,Other cereals,26.63169264002469
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,RandomForest,18,Fresh vegetables,18.095238095238095
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,RandomForest,18,Dry pulses,10.50228310502283
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,RandomForest,18,Potatoes,57.48299319727891
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,RandomForest,18,Sugar Beet,80.15755785327426
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,RandomForest,18,Sunflower,70.48014226437463
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,RandomForest,18,Soybeans,26.706231454005934
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,RandomForest,18,Rapeseed,71.52098691138859
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,RandomForest,18,"Flax, cotton and hemp",76.22377622377621
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,RandomForest,18,Grapes,55.43618392780404
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,RandomForest,18,Olives,72.41897402876154
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,RandomForest,18,Fruits,59.8011049723757
+OlmoEarth+AlphaEarth+Presto+Tessera,NaiveConcat,RandomForest,18,Nuts,21.937842778793417
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,LinearProbe,18,Wheat,63.74902504549787
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,LinearProbe,18,Barley,44.340610650124866
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,LinearProbe,18,Maize,82.87196150721739
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,LinearProbe,18,Rice,55.601659751037346
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,LinearProbe,18,Other cereals,39.48913379338757
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,LinearProbe,18,Fresh vegetables,26.633478531425013
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,LinearProbe,18,Dry pulses,29.15936952714536
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,LinearProbe,18,Potatoes,50.78793336334984
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,LinearProbe,18,Sugar Beet,66.54006836308393
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,LinearProbe,18,Sunflower,58.403090792015455
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,LinearProbe,18,Soybeans,36.37566137566138
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,LinearProbe,18,Rapeseed,67.68711895187444
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,LinearProbe,18,"Flax, cotton and hemp",26.845637583892618
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,LinearProbe,18,Grapes,48.07256235827664
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,LinearProbe,18,Olives,69.50682056663169
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,LinearProbe,18,Fruits,56.04780548114569
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,LinearProbe,18,Nuts,25.522552255225524
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,RandomForest,18,Wheat,63.76244461069229
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,RandomForest,18,Barley,32.99856527977044
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,RandomForest,18,Maize,78.72340425531915
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,RandomForest,18,Rice,56.36363636363636
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,RandomForest,18,Other cereals,26.69055082848186
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,RandomForest,18,Fresh vegetables,15.402843601895736
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,RandomForest,18,Dry pulses,3.9952996474735603
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,RandomForest,18,Potatoes,39.661898569570866
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,RandomForest,18,Sugar Beet,70.58242843040475
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,RandomForest,18,Sunflower,63.67395156526875
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,RandomForest,18,Soybeans,6.9421487603305785
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,RandomForest,18,Rapeseed,69.10470409711684
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,RandomForest,18,"Flax, cotton and hemp",58.4192439862543
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,RandomForest,18,Grapes,50.129198966408275
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,RandomForest,18,Olives,69.52380952380952
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,RandomForest,18,Fruits,57.10993316432358
+OlmoEarth+AlphaEarth+Presto+Tessera,PCAFusion32,RandomForest,18,Nuts,17.18146718146718
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,LinearProbe,18,Wheat,65.53077526896615
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,LinearProbe,18,Barley,57.94592812396967
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,LinearProbe,18,Maize,87.38894373149063
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,LinearProbe,18,Rice,90.19607843137256
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,LinearProbe,18,Other cereals,48.52511294180175
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,LinearProbe,18,Fresh vegetables,34.521055067098565
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,LinearProbe,18,Dry pulses,39.57627118644068
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,LinearProbe,18,Potatoes,59.9850411368736
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,LinearProbe,18,Sugar Beet,72.18568665377177
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,LinearProbe,18,Sunflower,74.00805060379528
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,LinearProbe,18,Soybeans,61.02325581395349
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,LinearProbe,18,Rapeseed,68.75159560888436
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,LinearProbe,18,"Flax, cotton and hemp",70.05076142131979
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,LinearProbe,18,Grapes,56.324248777078964
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,LinearProbe,18,Olives,75.14318442153494
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,LinearProbe,18,Fruits,62.623294858342085
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,LinearProbe,18,Nuts,33.49282296650718
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,RandomForest,18,Wheat,70.93854710007254
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,RandomForest,18,Barley,54.76332115237529
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,RandomForest,18,Maize,88.30241675931886
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,RandomForest,18,Rice,79.69924812030075
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,RandomForest,18,Other cereals,38.525564803805
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,RandomForest,18,Fresh vegetables,42.363112391930834
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,RandomForest,18,Dry pulses,41.761174116077385
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,RandomForest,18,Potatoes,67.56393001345896
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,RandomForest,18,Sugar Beet,85.43417366946778
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,RandomForest,18,Sunflower,76.52123995407577
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,RandomForest,18,Soybeans,52.26993865030675
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,RandomForest,18,Rapeseed,73.06037473976406
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,RandomForest,18,"Flax, cotton and hemp",82.20064724919094
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,RandomForest,18,Grapes,58.79077167859984
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,RandomForest,18,Olives,74.89841986455981
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,RandomForest,18,Fruits,64.22264875239924
+OlmoEarth+AlphaEarth+Presto+Tessera,LPFusion32,RandomForest,18,Nuts,31.555555555555554
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,LinearProbe,18,Wheat,71.6275789102451
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,LinearProbe,18,Barley,62.618226818704144
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,LinearProbe,18,Maize,93.96639358966694
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,LinearProbe,18,Rice,87.65432098765432
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,LinearProbe,18,Other cereals,54.30614234644134
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,LinearProbe,18,Fresh vegetables,57.38601823708207
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,LinearProbe,18,Dry pulses,55.28169014084507
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,LinearProbe,18,Potatoes,70.71977638015375
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,LinearProbe,18,Sugar Beet,85.23852385238524
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,LinearProbe,18,Sunflower,84.6477392218717
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,LinearProbe,18,Soybeans,74.4186046511628
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,LinearProbe,18,Rapeseed,83.24029598857588
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,LinearProbe,18,"Flax, cotton and hemp",75.52083333333334
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,LinearProbe,18,Grapes,91.32720105124835
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,LinearProbe,18,Olives,88.72486637821328
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,LinearProbe,18,Fruits,73.87654320987654
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,LinearProbe,18,Nuts,53.56407086938607
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,RandomForest,18,Wheat,65.90174076886302
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,RandomForest,18,Barley,30.902255639097742
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,RandomForest,18,Maize,86.57053696330571
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,RandomForest,18,Rice,76.5625
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,RandomForest,18,Other cereals,28.836784409257003
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,RandomForest,18,Fresh vegetables,27.387802071346375
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,RandomForest,18,Dry pulses,8.520710059171597
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,RandomForest,18,Potatoes,73.63344051446946
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,RandomForest,18,Sugar Beet,87.86185881157948
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,RandomForest,18,Sunflower,75.64553990610328
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,RandomForest,18,Soybeans,23.939393939393938
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,RandomForest,18,Rapeseed,72.78849097030916
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,RandomForest,18,"Flax, cotton and hemp",84.21052631578947
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,RandomForest,18,Grapes,89.93042841450018
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,RandomForest,18,Olives,80.81038015023901
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,RandomForest,18,Fruits,71.9013627514601
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,NaiveConcat,RandomForest,18,Nuts,35.064935064935064
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,LinearProbe,18,Wheat,59.37916587316702
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,LinearProbe,18,Barley,45.520997563422675
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,LinearProbe,18,Maize,92.48726152387724
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,LinearProbe,18,Rice,72.54901960784314
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,LinearProbe,18,Other cereals,48.34028659532015
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,LinearProbe,18,Fresh vegetables,39.04945407835581
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,LinearProbe,18,Dry pulses,34.234234234234236
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,LinearProbe,18,Potatoes,60.17770597738288
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,LinearProbe,18,Sugar Beet,75.07638585770407
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,LinearProbe,18,Sunflower,72.59615384615384
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,LinearProbe,18,Soybeans,48.14264487369985
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,LinearProbe,18,Rapeseed,77.46801346801347
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,LinearProbe,18,"Flax, cotton and hemp",41.51624548736462
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,LinearProbe,18,Grapes,74.28992991516046
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,LinearProbe,18,Olives,79.74291835277315
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,LinearProbe,18,Fruits,69.86579910532737
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,LinearProbe,18,Nuts,40.42232277526395
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,RandomForest,18,Wheat,66.11926391800606
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,RandomForest,18,Barley,27.764127764127768
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,RandomForest,18,Maize,87.58983645520911
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,RandomForest,18,Rice,66.10169491525424
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,RandomForest,18,Other cereals,36.3563829787234
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,RandomForest,18,Fresh vegetables,29.889669007021062
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,RandomForest,18,Dry pulses,1.9441069258809234
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,RandomForest,18,Potatoes,55.02866076081292
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,RandomForest,18,Sugar Beet,78.3811475409836
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,RandomForest,18,Sunflower,68.02760207015525
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,RandomForest,18,Soybeans,5.360134003350084
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,RandomForest,18,Rapeseed,72.28846430110616
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,RandomForest,18,"Flax, cotton and hemp",54.19847328244275
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,RandomForest,18,Grapes,75.12877115526122
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,RandomForest,18,Olives,77.26876090750436
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,RandomForest,18,Fruits,68.54838709677419
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,PCAFusion32,RandomForest,18,Nuts,20.423892100192678
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,LinearProbe,18,Wheat,68.68779525753337
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,LinearProbe,18,Barley,63.12142454274434
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,LinearProbe,18,Maize,93.97820001191256
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,LinearProbe,18,Rice,91.50326797385621
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,LinearProbe,18,Other cereals,53.98038889812199
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,LinearProbe,18,Fresh vegetables,59.18114143920595
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,LinearProbe,18,Dry pulses,54.418103448275865
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,LinearProbe,18,Potatoes,79.1272128447921
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,LinearProbe,18,Sugar Beet,87.04902867715079
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,LinearProbe,18,Sunflower,84.48540706605223
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,LinearProbe,18,Soybeans,74.17998317914214
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,LinearProbe,18,Rapeseed,82.72087568412823
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,LinearProbe,18,"Flax, cotton and hemp",79.05759162303664
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,LinearProbe,18,Grapes,91.96488858879135
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,LinearProbe,18,Olives,88.02572983671449
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,LinearProbe,18,Fruits,75.72054415494581
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,LinearProbe,18,Nuts,52.79794959419052
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,RandomForest,18,Wheat,75.03237775210893
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,RandomForest,18,Barley,60.11614837017609
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,RandomForest,18,Maize,93.84963190539679
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,RandomForest,18,Rice,79.38931297709924
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,RandomForest,18,Other cereals,49.49626644541899
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,RandomForest,18,Fresh vegetables,65.78947368421053
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,RandomForest,18,Dry pulses,56.39614855570839
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,RandomForest,18,Potatoes,84.65414567109482
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,RandomForest,18,Sugar Beet,91.78695868591339
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,RandomForest,18,Sunflower,86.4850568632637
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,RandomForest,18,Soybeans,74.36440677966102
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,RandomForest,18,Rapeseed,83.4562152373561
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,RandomForest,18,"Flax, cotton and hemp",88.59934853420195
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,RandomForest,18,Grapes,93.39298004129387
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,RandomForest,18,Olives,88.26843007592457
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,RandomForest,18,Fruits,80.56094929881338
+OlmoEarth+AlphaEarth+Presto+Tessera+CLIP,LPFusion32,RandomForest,18,Nuts,58.998144712430424
+S1 only,Single,Transformer,18,Wheat,62.921251719394775
+S1 only,Single,Transformer,18,Barley,39.80062765368285
+S1 only,Single,Transformer,18,Maize,64.76721790529322
+S1 only,Single,Transformer,18,Rice,26.5
+S1 only,Single,Transformer,18,Other cereals,30.976714782425457
+S1 only,Single,Transformer,18,Fresh vegetables,9.307972480777012
+S1 only,Single,Transformer,18,Dry pulses,22.802303262955853
+S1 only,Single,Transformer,18,Potatoes,39.276018099547514
+S1 only,Single,Transformer,18,Sugar Beet,63.11146752205292
+S1 only,Single,Transformer,18,Sunflower,58.816040738383194
+S1 only,Single,Transformer,18,Soybeans,21.6
+S1 only,Single,Transformer,18,Rapeseed,69.54636940702895
+S1 only,Single,Transformer,18,"Flax, cotton and hemp",16.015252621544327
+S1 only,Single,Transformer,18,Grapes,30.411371957785917
+S1 only,Single,Transformer,18,Olives,38.2713567839196
+S1 only,Single,Transformer,18,Fruits,26.623698562221122
+S1 only,Single,Transformer,18,Nuts,18.48414539829853
+S2 only,Single,Transformer,18,Wheat,59.797920917128145
+S2 only,Single,Transformer,18,Barley,48.62040133779264
+S2 only,Single,Transformer,18,Maize,83.67706237424547
+S2 only,Single,Transformer,18,Rice,62.82722513089005
+S2 only,Single,Transformer,18,Other cereals,41.80289142965133
+S2 only,Single,Transformer,18,Fresh vegetables,25.536480686695278
+S2 only,Single,Transformer,18,Dry pulses,31.398809523809522
+S2 only,Single,Transformer,18,Potatoes,52.53927658019729
+S2 only,Single,Transformer,18,Sugar Beet,76.0914760914761
+S2 only,Single,Transformer,18,Sunflower,66.400228375678
+S2 only,Single,Transformer,18,Soybeans,44.739168877099914
+S2 only,Single,Transformer,18,Rapeseed,68.29465731246627
+S2 only,Single,Transformer,18,"Flax, cotton and hemp",52.838427947598255
+S2 only,Single,Transformer,18,Grapes,48.419721871049305
+S2 only,Single,Transformer,18,Olives,70.19931939718036
+S2 only,Single,Transformer,18,Fruits,55.315747402078344
+S2 only,Single,Transformer,18,Nuts,34.13897280966767
+S1+S2,Mid-Level,Transformer,18,Wheat,69.50680419519806
+S1+S2,Mid-Level,Transformer,18,Barley,52.22421378523708
+S1+S2,Mid-Level,Transformer,18,Maize,83.45769571265967
+S1+S2,Mid-Level,Transformer,18,Rice,60.633484162895925
+S1+S2,Mid-Level,Transformer,18,Other cereals,45.99047240968638
+S1+S2,Mid-Level,Transformer,18,Fresh vegetables,23.505490036600243
+S1+S2,Mid-Level,Transformer,18,Dry pulses,33.08660251665433
+S1+S2,Mid-Level,Transformer,18,Potatoes,55.11014806789455
+S1+S2,Mid-Level,Transformer,18,Sugar Beet,77.57166947723441
+S1+S2,Mid-Level,Transformer,18,Sunflower,72.50221043324491
+S1+S2,Mid-Level,Transformer,18,Soybeans,45.14285714285714
+S1+S2,Mid-Level,Transformer,18,Rapeseed,73.70721048798252
+S1+S2,Mid-Level,Transformer,18,"Flax, cotton and hemp",58.198614318706696
+S1+S2,Mid-Level,Transformer,18,Grapes,49.616189811584086
+S1+S2,Mid-Level,Transformer,18,Olives,69.58749679733538
+S1+S2,Mid-Level,Transformer,18,Fruits,55.442670537010166
+S1+S2,Mid-Level,Transformer,18,Nuts,35.471698113207545
+S1+S2+TMS,Mid-Level,Transformer,18,Wheat,71.09187917489392
+S1+S2+TMS,Mid-Level,Transformer,18,Barley,52.90417449554775
+S1+S2+TMS,Mid-Level,Transformer,18,Maize,78.14506214997951
+S1+S2+TMS,Mid-Level,Transformer,18,Rice,63.55140186915887
+S1+S2+TMS,Mid-Level,Transformer,18,Other cereals,48.55826992390869
+S1+S2+TMS,Mid-Level,Transformer,18,Fresh vegetables,23.836276083467094
+S1+S2+TMS,Mid-Level,Transformer,18,Dry pulses,36.15971287572903
+S1+S2+TMS,Mid-Level,Transformer,18,Potatoes,57.791754018169115
+S1+S2+TMS,Mid-Level,Transformer,18,Sugar Beet,76.95560253699789
+S1+S2+TMS,Mid-Level,Transformer,18,Sunflower,75.26819367932734
+S1+S2+TMS,Mid-Level,Transformer,18,Soybeans,42.4024024024024
+S1+S2+TMS,Mid-Level,Transformer,18,Rapeseed,73.81898454746137
+S1+S2+TMS,Mid-Level,Transformer,18,"Flax, cotton and hemp",60.6425702811245
+S1+S2+TMS,Mid-Level,Transformer,18,Grapes,57.68822905620361
+S1+S2+TMS,Mid-Level,Transformer,18,Olives,72.67362687244666
+S1+S2+TMS,Mid-Level,Transformer,18,Fruits,59.99578681272383
+S1+S2+TMS,Mid-Level,Transformer,18,Nuts,35.294117647058826
+S1+S2+CLIP,Mid-Level,Transformer,18,Wheat,64.37751398018247
+S1+S2+CLIP,Mid-Level,Transformer,18,Barley,56.53364307641251
+S1+S2+CLIP,Mid-Level,Transformer,18,Maize,93.3835395373857
+S1+S2+CLIP,Mid-Level,Transformer,18,Rice,79.7752808988764
+S1+S2+CLIP,Mid-Level,Transformer,18,Other cereals,51.59549868968707
+S1+S2+CLIP,Mid-Level,Transformer,18,Fresh vegetables,56.64670658682635
+S1+S2+CLIP,Mid-Level,Transformer,18,Dry pulses,46.67583677212288
+S1+S2+CLIP,Mid-Level,Transformer,18,Potatoes,71.00073046018991
+S1+S2+CLIP,Mid-Level,Transformer,18,Sugar Beet,88.84596813133751
+S1+S2+CLIP,Mid-Level,Transformer,18,Sunflower,83.35595981536791
+S1+S2+CLIP,Mid-Level,Transformer,18,Soybeans,62.49149081007488
+S1+S2+CLIP,Mid-Level,Transformer,18,Rapeseed,83.89016637359664
+S1+S2+CLIP,Mid-Level,Transformer,18,"Flax, cotton and hemp",77.31092436974791
+S1+S2+CLIP,Mid-Level,Transformer,18,Grapes,92.5737538148525
+S1+S2+CLIP,Mid-Level,Transformer,18,Olives,87.93456032719837
+S1+S2+CLIP,Mid-Level,Transformer,18,Fruits,77.44292237442923
+S1+S2+CLIP,Mid-Level,Transformer,18,Nuts,57.63523216850167
+S1+S2+TMS+CLIP,Mid-Level,Transformer,18,Wheat,74.57308603644088
+S1+S2+TMS+CLIP,Mid-Level,Transformer,18,Barley,57.600155204190514
+S1+S2+TMS+CLIP,Mid-Level,Transformer,18,Maize,93.2312404287902
+S1+S2+TMS+CLIP,Mid-Level,Transformer,18,Rice,83.79888268156425
+S1+S2+TMS+CLIP,Mid-Level,Transformer,18,Other cereals,57.657819225251075
+S1+S2+TMS+CLIP,Mid-Level,Transformer,18,Fresh vegetables,59.68028419182948
+S1+S2+TMS+CLIP,Mid-Level,Transformer,18,Dry pulses,54.63239689181112
+S1+S2+TMS+CLIP,Mid-Level,Transformer,18,Potatoes,75.87265055619487
+S1+S2+TMS+CLIP,Mid-Level,Transformer,18,Sugar Beet,82.27571115973743
+S1+S2+TMS+CLIP,Mid-Level,Transformer,18,Sunflower,83.39350180505414
+S1+S2+TMS+CLIP,Mid-Level,Transformer,18,Soybeans,71.14624505928853
+S1+S2+TMS+CLIP,Mid-Level,Transformer,18,Rapeseed,82.92556634304206
+S1+S2+TMS+CLIP,Mid-Level,Transformer,18,"Flax, cotton and hemp",83.04093567251462
+S1+S2+TMS+CLIP,Mid-Level,Transformer,18,Grapes,91.93333333333334
+S1+S2+TMS+CLIP,Mid-Level,Transformer,18,Olives,88.60759493670885
+S1+S2+TMS+CLIP,Mid-Level,Transformer,18,Fruits,78.59569648924122
+S1+S2+TMS+CLIP,Mid-Level,Transformer,18,Nuts,61.585993820803296

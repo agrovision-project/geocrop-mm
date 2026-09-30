@@ -1,0 +1,4 @@
+results/ood/tables/
+results/figures/
+__pycache__/
+*.log
