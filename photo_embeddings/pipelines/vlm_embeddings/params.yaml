@@ -1,0 +1,30 @@
+# SPDX-FileCopyrightText: 2025-2026 AgroVision <s.maurogiovanni@fz-juelich.de>
+#
+# SPDX-License-Identifier: MIT
+
+download:
+  seed: 42
+  num_fetch_tasks: 8 
+  num_stream_tasks: 8
+  queue_size: 100000
+  max_fetch_requests: 8 
+  max_stream_requests: 8
+  shard_size: 3000000000
+
+# TODO: turn this into a params grid
+metadata:
+    year: 2022
+    direction: point
+    metadata_file: data/external/LUCAS_2022_CropFiltered_CLMS.csv
+    photos_dir: data/interim/photos/2022-point
+    embeddings_file: data/processed/vlm_embeddings/embeddings/2022_point.npz
+
+artifacts:
+    point_ids:
+        path: artifacts/vlm_embeddings
+  
+model:
+  id: facebook/metaclip-2-worldwide-huge-quickgelu
+  local_files_only: true
+  batch_size: 64 
+  device: cuda

@@ -1,0 +1,40 @@
+# SPDX-FileCopyrightText: 2026 Stefano Maurogiovanni <s.maurogiovanni@fz-juelich.de>
+#
+# SPDX-License-Identifier: MIT
+
+stages:
+  download:
+    desc: Download in-situ field photos from a selection of point IDs
+    cmd: uv run src/agrofusion/download_photos.py
+    wdir: ../..
+    deps:
+    - data/external/LUCAS_2022_CropFiltered_CLMS.csv
+    - src/agrofusion/download_photos.py
+    params:
+    - pipelines/vlm_embeddings/params.yaml:
+      - artifacts
+      - download
+      - metadata
+    outs:
+    - data/interim/photos/2022-point
+
+
+  compute:
+    cmd: uv run src/agrofusion/image_embeddings.py
+    wdir: ../..
+    deps:
+    - data/interim/photos/2022-point
+    - src/agrofusion/image_embeddings.py
+    params:
+    - pipelines/vlm_embeddings/params.yaml:
+      - metadata
+      - model
+    outs:
+    - data/processed/vlm_embeddings/embeddings/2022_point.npz
+
+artifacts:
+  point_ids:
+    path: artifacts/vlm_embeddings
+    type: data
+    meta:
+      stage: download

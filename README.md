@@ -22,6 +22,7 @@ in all five embedding files; the OlmoEarth rows it writes are not the values in 
 | `slurm/run_ood.sbatch` | SLURM array job, seeds 17 to 21 |
 | `data/SHA256SUMS` | checksums of the input files |
 | `data/clip_photos_{2018,2022}.csv.gz` | for each CLIP embedding, the `point_id` and the `url` of the encoded photo |
+| `photo_embeddings/` | the code that downloaded the photos and computed the CLIP embeddings (MIT, see below) |
 | `results/ood/` | per-seed results of the runs reported in the paper |
 | `requirements.txt` | package versions of those runs |
 
@@ -38,7 +39,7 @@ the ones used in the paper. Arrays are indexed by the 8-digit LUCAS point id.
 | `{y}/PE_{y}_X.npz` | Presto | `embeddings` (N,128,3,3), `point_ids` | 123,483 | 115,744 |
 | `{y}/TE_{y}_data.npz` | Tessera | `X` (N,1,128,3,3), `point_ids` | 107,642 | 103,841 |
 | `{y}/OE_{y}_AI2_v2.npz` | OlmoEarth, int8, from external partners | `data` (N,768,3,3), `point_ids` | 105,738 | 103,468 |
-| `{y}/CLIP_{y}_point.npz` | CLIP embedding of the LUCAS Point photo | `data` (N,1024), `point_id`, `url` | 55,081 | 49,282 |
+| `{y}/CLIP_{y}_point.npz` | MetaCLIP 2 embedding of the LUCAS Point photo | `data` (N,1024), `point_id`, `url` | 55,081 | 49,282 |
 | `{y}/modalities/S1_{y}_Xy_v2.npz` | Sentinel-1 monthly, VV, VH | `X` (N,12,2,3,3), `point_ids` | 120,032 | 113,214 |
 | `{y}/modalities/S2_{y}_Xy_v2.npz` | Sentinel-2 L2A monthly, B2 to B8A, B11, B12 | `X` (N,12,10,3,3), `point_ids` | 123,483 | 115,744 |
 | `{y}/modalities/ERA5_{y}_Xy_v2.npz` | ERA5-Land monthly, 18 variables | `X` (N,12,18,1,1), `point_ids` | 123,483 | 115,844 |
@@ -48,9 +49,30 @@ the ones used in the paper. Arrays are indexed by the 8-digit LUCAS point id.
 
 `{y}` is 2018 or 2022; the LUCAS counts are points of the 17 classes. Satellite, ERA5, DEM and
 soil values cover the 3 x 3 pixels around each point and were produced as described in Section 2
-of the paper (Celik et al. 2026a, doi:10.5281/zenodo.17988209; Celik et al. 2026b). The photos
-behind the CLIP embeddings are the LUCAS Point photos on Eurostat GISCO, listed in
-`data/clip_photos_{y}.csv.gz`.
+of the paper (Celik et al. 2026a, doi:10.5281/zenodo.17988209; Celik et al. 2026b).
+
+### CLIP embeddings
+
+`photo_embeddings/` holds, unchanged, the files of the `agrofusion-dataset` repository (branch
+`develop-jureca-hwai`, S. Maurogiovanni, MIT license) that produced `CLIP_{y}_point.npz`:
+
+- `agrofusion/download_photos.py`, `download_utils.py`: build the Eurostat GISCO URL of the
+  Point photo of every crop point and store the downloaded JPEGs as WebDataset shards. The
+  resulting photo list is `data/clip_photos_{y}.csv.gz` (`point_id`, `url`).
+- `agrofusion/image_embeddings.py`, `processing_utils.py`: read the shards and write `point_id`,
+  `url` and the 1024-d `image_embeds` (not normalized) of
+  `MetaClip2VisionModelWithProjection` from the Hugging Face model
+  `facebook/metaclip-2-worldwide-huge-quickgelu`, with its `CLIPImageProcessor`.
+- `pipelines/vlm_embeddings/`: the DVC stage definition, parameters and lock of the 2022 run.
+  The lock records the md5 of the two scripts (unchanged here) and of the output,
+  `e222e8a874c3ecc30c6d04276b0605d1`, which is `CLIP_2022_point.npz`. The 2018 file was produced
+  by the same scripts with the year parameters set to 2018; no lock of that run exists.
+- `pyproject.toml`: dependencies.
+
+The scripts are driven by DVC (`uv run dvc repro` in that repository) and read their input, a
+LUCAS table restricted to the crop points, relative to `$HOME/shared/agrofusion`. To re-encode the
+photos without DVC, download the URLs of `data/clip_photos_{y}.csv.gz` and apply
+`compute_img_embeddings` of `image_embeddings.py` to each image.
 
 ## Method
 
@@ -116,5 +138,5 @@ in the last digits on other hardware or package versions.
 
 ## License
 
-Apache License 2.0. Supported by the AgroVision project, funded by the European Space Agency
+Apache License 2.0, except `photo_embeddings/` (MIT, `photo_embeddings/LICENSE`). Supported by the AgroVision project, funded by the European Space Agency
 (ESA) Phi-Lab under contract No. 4000147606.

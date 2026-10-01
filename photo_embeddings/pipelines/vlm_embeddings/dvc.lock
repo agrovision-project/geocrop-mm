@@ -1,0 +1,70 @@
+schema: '2.0'
+stages:
+  download:
+    cmd: uv run src/agrofusion/download_photos.py
+    deps:
+    - path: data/external/LUCAS_2022_CropFiltered_CLMS.csv
+      hash: md5
+      md5: 2857b789d0cc2c404ba7e6d424ae9a5c
+      size: 7836475
+    - path: src/agrofusion/download_photos.py
+      hash: md5
+      md5: bbb3c05316729ae7002e4bde503c468e
+      size: 8883
+    params:
+      pipelines/vlm_embeddings/params.yaml:
+        artifacts:
+          point_ids:
+            path: artifacts/vlm_embeddings
+        download:
+          seed: 42
+          num_fetch_tasks: 8
+          num_stream_tasks: 8
+          queue_size: 100000
+          max_fetch_requests: 8
+          max_stream_requests: 8
+          shard_size: 3000000000
+        metadata:
+          year: 2022
+          direction: point
+          metadata_file: data/external/LUCAS_2022_CropFiltered_CLMS.csv
+          photos_dir: data/interim/photos/2022-point
+          embeddings_file: 
+            data/processed/vlm_embeddings/embeddings/2022_point.npz
+    outs:
+    - path: data/interim/photos/2022-point
+      hash: md5
+      md5: a3964eae655ea9ca0bdb0297c0f0c2c4.dir
+      size: 93097891840
+      nfiles: 31
+  compute:
+    cmd: uv run src/agrofusion/image_embeddings.py
+    deps:
+    - path: data/interim/photos/2022-point
+      hash: md5
+      md5: a3964eae655ea9ca0bdb0297c0f0c2c4.dir
+      size: 93097891840
+      nfiles: 31
+    - path: src/agrofusion/image_embeddings.py
+      hash: md5
+      md5: c46708e4f04fde27aa7df90766e3c301
+      size: 3533
+    params:
+      pipelines/vlm_embeddings/params.yaml:
+        metadata:
+          year: 2022
+          direction: point
+          metadata_file: data/external/LUCAS_2022_CropFiltered_CLMS.csv
+          photos_dir: data/interim/photos/2022-point
+          embeddings_file: 
+            data/processed/vlm_embeddings/embeddings/2022_point.npz
+        model:
+          id: facebook/metaclip-2-worldwide-huge-quickgelu
+          local_files_only: true
+          batch_size: 64
+          device: cuda
+    outs:
+    - path: data/processed/vlm_embeddings/embeddings/2022_point.npz
+      hash: md5
+      md5: e222e8a874c3ecc30c6d04276b0605d1
+      size: 207921506

@@ -1,0 +1,68 @@
+# SPDX-FileCopyrightText: 2025-2026 AgroVision <s.maurogiovanni@fz-juelich.de>
+# SPDX-FileCopyrightText: 2026 Stefano Maurogiovanni <s.maurogiovanni@fz-juelich.de>
+#
+# SPDX-License-Identifier: MIT
+
+[build-system]
+requires = ["uv_build>=0.10.9,<0.11.0"]
+build-backend = "uv_build"
+
+[project]
+name = "agrofusion"
+version = "0.1.0rc0"
+description = "A multi-modal Remote Sensing dataset for agriculture."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "accelerate>=1.10.1",
+    "aiofiles>=25.1.0",
+    "aiohttp>=3.13.5",
+    "dvc>=3.67.1",
+    "human-readable>=2.0.2",
+    "loguru>=0.7.3",
+    "more-itertools>=10.8.0",
+    "polars>=1.36.1",
+    "safetensors>=0.7.0",
+    "transformers<5.4",
+    "webdataset>=0.2.100",
+]
+
+[dependency-groups]
+dev = [
+    "bumpver>=2025.1131",
+    "mbake>=1.4.6",
+    "mdformat>=0.7.22",
+    "pre-commit>=4.3.0",
+    "reuse>=5.1.1",
+    "ruff>=0.15.10",
+]
+notebooks = [
+    "ipykernel>=6.31.0",
+    "ipywidgets>=8.1.8",
+]
+
+[tool.ruff.lint]
+extend-select = ["I"]   # enable import-sorting rules
+
+
+[tool.bumpver]
+current_version = "v0.1.0rc0"
+version_pattern = "vMAJOR.MINOR.PATCH[PYTAGNUM]"
+commit_message = "Bump version {old_version} -> {new_version}"
+tag_message = "{new_version}"
+tag_scope = "default"
+pre_commit_hook = ""
+post_commit_hook = ""
+commit = true
+tag = true
+push = true
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    '^version = "{pep440_version}"$',
+    '^current_version = "{version}"$',
+]
+"src/agrofusion/__init__.py" = [
+    '__version__ = "{pep440_version}"$',
+]
+
